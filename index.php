@@ -59,6 +59,13 @@
         </style>
     </head>
     <body>
+      
+<?php
+// Tu código PHP irá aquí
+
+?>
+                        
+
         <div class="container">
             <div class="content">
                 <div class="title" title="Laragon">Laragon</div>
