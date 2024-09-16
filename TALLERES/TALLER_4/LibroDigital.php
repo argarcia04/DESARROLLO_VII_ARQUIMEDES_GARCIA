@@ -6,11 +6,13 @@ class LibroDigital extends Libro {
     private $tamanoMB;
 
     public function __construct($titulo, $autor, $anioPublicacion, $formatoArchivo, $tamanoMB) {
+        // Llama al constructor de la clase base (Libro)
         parent::__construct($titulo, $autor, $anioPublicacion);
         $this->formatoArchivo = $formatoArchivo;
         $this->tamanoMB = $tamanoMB;
     }
 
+    // Sobrescribe el método obtenerInformacion() para agregar información del formato y tamaño
     public function obtenerInformacion() {
         return parent::obtenerInformacion() . ", Formato: {$this->formatoArchivo}, Tamaño: {$this->tamanoMB}MB";
     }
