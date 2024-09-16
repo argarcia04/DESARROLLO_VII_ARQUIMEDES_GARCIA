@@ -30,4 +30,4 @@ echo "Disponible: " . ($libro->estaDisponible() ? "Sí" : "No") . "\n";
 $libro->prestar();
 echo "Disponible después de prestar: " . ($libro->estaDisponible() ? "Sí" : "No") . "\n";
 $libro->devolver();
-echo "Disponible después de devolver: " . ($libro->estaDisponible() ? "Sí" : "No") . "\n";
+echo "Disponible después de devolver: " . ($libro->estaDisponible() ? "Sí" : "No") . "\n"
