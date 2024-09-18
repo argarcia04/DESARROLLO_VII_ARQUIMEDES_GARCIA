@@ -56,3 +56,4 @@ echo "\nValor total del inventario: $" . valorTotalInventario($inventario) . "\n
 // Tu código aquí
 
 ?>
+        
