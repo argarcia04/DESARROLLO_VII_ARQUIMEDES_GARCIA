@@ -12,6 +12,7 @@ if(isset($_SESSION['usuario'])) {
     header("Location: panel.php");
     exit();
 }
+}
 
 // Procesar el formulario cuando se envía
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
